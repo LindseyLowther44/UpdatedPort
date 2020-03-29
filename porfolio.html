@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
@@ -13,76 +14,126 @@
 
 <body>
     <header>
-        <h1 class="name">Lindsey Lowther</h1>
-        <h3>Full Stack Web Development</h3>
-        <h4>Front End Driven</h4>
-            <a href="#bio" class="nav-item">About</a>
-            <a href="#projects" class="nav-item">Projects</a>
-            <a href="#bio" class="nav-item">About</a>
-        </ul>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Lindsey Lowther</h1>
+                <h3>Full Stack Web Development</h3>
+                <h4>Front End Driven</h4>
+                <a href="#bio" class="nav-item">About</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </div>
+        </div>
     </header>
 
     <div class="article">
-                <div class="slide-container">
-                    <span id="slider-image-1"></span>
-                    <span id="slider-image-2"></span>
-                    <span id="slider-image-3"></span>
-                    <span id="slider-image-4"></span>
-                    <span id="slider-image-5"></span>
-                    <div class="image-container">
-                        <img src="assets/images/slide1.jpeg" class="slider-image" width='800' height="600">
-                        <img src="assets/images/slide2.jpeg" class="slider-image" width='800' height="600">
-                        <img src="assets/images/slide3.png" class="slider-image" width='800' height="600">
-                        <img src="assets/images/slide4.jpeg" class="slider-image" width='800' height="600">
-                        <img src="assets/images/slide5.jpeg" class="slider-image" width='800' height="600">
-                    </div>
-                    <div class="button-container">
-                        <a href="#slider-image-1" class="slider-button"></a>
-                        <a href="#slider-image-2" class="slider-button"></a>
-                        <a href="#slider-image-3" class="slider-button"></a>
-                        <a href="#slider-image-4" class="slider-button"></a>
-                        <a href="#slider-image-5" class="slider-button"></a>
-                    </div>
-                </div>
-                        <p id="bio">Front-End Web Developer with a Certificate in Full Stack Web Development from the University of
-                            Texas-Austin. Extensive background in Cosmetology that provides insight on how communication correlates
-                            with design. With an extensive background, communication has lead to high client retention proving
-                            success with client satisfaction. Passionate about promoting small business growth by creating
-                            functional and sleek user interfaces that encourage social media attraction. Excited to leverage skills
-                            in HTML, CSS, JavaScript, and Firebase to create designs that can elevate any business.
-                        </p>
-            </div class="article">
+        <div class="slide-container">
+            <span id="slider-image-1"></span>
+            <span id="slider-image-2"></span>
+            <span id="slider-image-3"></span>
+            <span id="slider-image-4"></span>
+            <span id="slider-image-5"></span>
+            <div class="image-container">
+                <img src="assets/images/slide1.jpeg" class="slider-image" width='800' height="600">
+                <img src="assets/images/slide2.jpeg" class="slider-image" width='800' height="600">
+                <img src="assets/images/slide3.png" class="slider-image" width='800' height="600">
+                <img src="assets/images/slide4.jpeg" class="slider-image" width='800' height="600">
+                <img src="assets/images/slide5.jpeg" class="slider-image" width='800' height="600">
+            </div>
+            <div class="button-container">
+                <a href="#slider-image-1" class="slider-button"></a>
+                <a href="#slider-image-2" class="slider-button"></a>
+                <a href="#slider-image-3" class="slider-button"></a>
+                <a href="#slider-image-4" class="slider-button"></a>
+                <a href="#slider-image-5" class="slider-button"></a>
+            </div>
+        </div>
+        <p id="bio">Front-End Web Developer with a Certificate in Full Stack Web Development from the University of
+            Texas-Austin. Extensive background in Cosmetology that provides insight on how communication correlates
+            with design. With an extensive background, communication has lead to high client retention proving
+            success with client satisfaction. Passionate about promoting small business growth by creating
+            functional and sleek user interfaces that encourage social media attraction. Excited to leverage skills
+            in HTML, CSS, JavaScript, and Firebase to create designs that can elevate any business.
+        </p>
+    </div class="article">
 
     <div class="projectsContainer">
-        <h1>Projects</h1>
-        <table>
-            <th>
-                <div class="container" id="projects1">
-                    <img src="assets/images/projects1.jpeg" width="400px" height="auto">
-                    <a href="https://moebe-dev.github.io/Project1/">Hiking buddy</a>
-                </div>
-            </th>
-            <th>
-                <div class="container" id="projects1">
-                    <img src="assets/images/projects2.jpeg" width="250px" height="auto">
-                    <a href="https://lindseylowther44.github.io/Giphyapp/">Giphy App</a>
-                </div>
-            </th>
-            <th>
-                <div class="container" id="projects1">
-                    <img src="assets/images/projects3.jpeg" width="250px" height="auto">
-                    <a href="https://lindseylowther44.github.io/unit-4-game/">Hiking buddy</a>
-                </div>
-            </th>
-            <th>
-                <div class="container" id="projects1">
-                    <img src="assets/images/projects4.jpeg" width="250px" height="auto">
-                    <a href="https://lindseylowther44.github.io/TrainScheduler/">TrainScheduler</a>
-                    <p></p>
-                </div>
-            </th>
-        </table>
-    </aside>
+        <div class="card mb-3" style="max-width: 1000px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+            <img src="assets/images/projects1.jpeg" class="card-img" alt="Girl-hiking">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">HikingBuddy</h5>
+                <p class="card-text">This was a group project using GeoLocation, to help find trails near your area. We also used a Weather API to track the conditions of that trail </p>
+                <p>Key Technologies used were:</p> 
+                    <li>HTML</li>
+                    <li>CSS</li> 
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="card mb-3" style="max-width: 1000px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="assets/images/projects2.jpeg" class="card-img" alt="trolly">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Giphy App</h5>
+                <p>This was a project designed to let users input different TV characters, and see 
+                    different gifs of their choice.</p>   
+                    <p>Key Technologies used were:</p> 
+                    <li>HTML</li>
+                    <li>CSS</li> 
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 1000px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="assets/images/projects3.jpeg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Crystal Collector</h5>
+                <p>A small guessing game. Each Crystal has its on value, and your goal is to 
+                    match the target value, and if you go past that, you lose. 
+                    <p>Key Technologies used were:</p> 
+                    <li>HTML</li>
+                    <li>CSS</li> 
+                    <li>JavaScript</li>
+                    <li>jQuery</li>                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 1000px;">
+            <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="assets/images/projects4.jpeg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Train Scheduler</h5>
+                <p>A train Scheduler designed to help users input a train time, and it will allow you to input a train
+                    and it will tell you when the arrival, and wait time would be. 
+                </p>
+                <p>Key Technologies used were:</p> 
+                    <li>HTML</li>
+                    <li>CSS</li> 
+                    <li>JavaScript</li>
+                    <li>jQuery</li>                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
